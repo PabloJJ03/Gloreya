@@ -9,7 +9,7 @@ h6, form, input, select, textarea, option, table, tr, th, td, div, strong, em { 
 header, main, footer, aside, section, figure, nav, figcaption, div { display: block; }
 
 /* Anular margen por defecto de body */
-body { margin: 0 !important }
+body { margin: 0 !important; overflow-y: hidden; }
 
 
 /* Estilo propio */
