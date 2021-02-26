@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, a, p, button, span { font-family: 'Rubik', sans-serif; }
 h6, form, input, select, textarea, option, table, tr, th, td, div, strong, em { font-family: 'Akaya Telivigala', sans-serif; }
 
 /* Asignar diseplay: block; a todas las cajas de estructura */
-header, main, footer, aside, section, figure, nav, figcaption, div { display: block; }
+header, main, footer, aside, section, figure, nav, figcaption, div { display: block;}
 
 /* Anular margen por defecto de body */
 body { margin: 0 !important; overflow-x: hidden; }
@@ -109,10 +109,16 @@ footer article hr.rounded { color: #9999991c; top: 65px; position: relative; wid
 
 footer article div#bottom-footer { width: 100%px; height: 50px; position: relative; margin: 95px 450px 0 450px; float: none; }
 footer article div#bottom-footer nav#redes { height: auto; width: 100%; margin: 0 auto; float: none; position: relative; left: 123px; }
+
 footer article div#bottom-footer nav#redes a { width: 40px; height: auto; display: block; margin: 5px; float: left; color: white; text-align: center; font-size: 1.3em; padding: 7px 0; transition: all 0.3s ease-in; background: #3b5999; border-radius: 25px; }
 footer article div#bottom-footer nav#redes a:nth-child(2) { background: #55adef; }
 footer article div#bottom-footer nav#redes a:nth-child(3) { background: #3f729b; }
 footer article div#bottom-footer nav#redes a:nth-child(4) { background: #ce201f; }
+
+footer article div#bottom-footer nav#redes a:hover { background: #6091fc; transition: all 0.3s ease-in ; }
+footer article div#bottom-footer nav#redes a:hover:nth-child(2) { background: #92d0ff; transition: all 0.3s ease-in ; }
+footer article div#bottom-footer nav#redes a:hover:nth-child(3) { background: #5da8e6; transition: all 0.3s ease-in ; }
+footer article div#bottom-footer nav#redes a:hover:nth-child(4) { background: #ff4646 ; transition: all 0.3s ease-in ; }
 
 
 
